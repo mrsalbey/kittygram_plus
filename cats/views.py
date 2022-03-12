@@ -7,3 +7,5 @@ from .serializers import CatSerializer
 class CatViewSet(viewsets.ModelViewSet):
     queryset = Cat.objects.all()
     serializer_class = CatSerializer
+    
+#Удалить
